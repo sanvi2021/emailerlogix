@@ -49,7 +49,8 @@ class CustomAuthToken(ObtainAuthToken):
             'token': token.key,
             'user_id': user.pk,
             'email': user.email,
-            'unique_code': usr
+            'unique_code': usr,
+            "seed_emails":['logixtest21@gmail.com','logixtest1992@gmail.com']
         })
 # def time_stamp(email):
 #   usr= User.objects.get(email=email).last_login
